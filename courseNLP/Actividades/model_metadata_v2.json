@@ -1,0 +1,21 @@
+{
+  "fecha": "2026-03-06T07:12:27.699087",
+  "modelo": "GridSearch_LR(C=0.5)",
+  "f1_macro_test": 41.7093,
+  "log_loss_test": 1.1632,
+  "mcnemar_p": 0.1379,
+  "mcnemar_sig": "⚠️  NO significativo (p ≥ 0.05)",
+  "dataset": "TASS 2018 ES",
+  "n_train": 1008,
+  "n_test": 506,
+  "clases": [
+    "P",
+    "N",
+    "NEU",
+    "NONE"
+  ],
+  "preprocesador": "EnhancedTextCleanerV2 (stemming+stopwords)",
+  "vectorizacion": "TF-IDF word(1,2) + char_wb(3, 4) + ManualFeaturesV2",
+  "modelo_path": "/Volumes/ADATA SD620/Programacion 7.0/actividades nlp/laboratorio 1/courseNLP/Actividades/best_pipeline_tass_v2.joblib",
+  "modelo_size_kb": 895.7
+}
